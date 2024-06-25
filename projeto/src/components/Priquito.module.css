@@ -1,0 +1,24 @@
+.tudo{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+}
+.priquito{
+    scale: 0.5;
+    transition: 0.1s;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.priquito:active{
+    scale: 0.6;
+    background-color: transparent;
+}
+.presses{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+}
