@@ -8,7 +8,7 @@ function priquito(props) {
         <div className={css.tudo}>
             <p className={css.presses} >{props.cliques}</p>
             <button onClick={()=>press()} className={css.priquito}>
-                <img src="/priquito.png" alt=""/>
+                <img className={css.passaro} src="/priquito.png" alt=""/>
             </button>
         </div>
     );
